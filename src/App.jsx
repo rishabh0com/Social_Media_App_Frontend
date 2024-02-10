@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Home from "./pages/Home";
+import AllRoutes from "./routes/AllRoutes";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <h1>hello</h1>
+     <AllRoutes/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
